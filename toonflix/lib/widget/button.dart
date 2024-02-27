@@ -18,12 +18,12 @@ class Button extends StatelessWidget {
       decoration: BoxDecoration(
           color: bgColor, borderRadius: BorderRadius.circular(45)),
       child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
+        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 35),
         child: Text(
           text,
           style: TextStyle(
             color: textColor,
-            fontSize: 22,
+            fontSize: 18,
           ),
         ),
       ),
